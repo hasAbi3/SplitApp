@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".secondFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageSetting"
+        android:layout_width="96dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="787dp"
+        android:src="@drawable/setting"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imagePlus"
+        android:layout_width="71dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="740dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="75dp"
+        android:background="@color/black"
+        android:src="@drawable/plus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageNav"
+        android:layout_width="451dp"
+        android:layout_height="136dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="6dp"
+        android:src="@drawable/nav"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.379"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagePlus"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    <ImageView
+        android:id="@+id/imageHome"
+        android:layout_width="66dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="330dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageNav"
+        app:layout_constraintStart_toStartOf="@+id/imageNav"
+        app:layout_constraintTop_toTopOf="@+id/imageNav"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageFriend"
+        android:layout_width="65dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/friend"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imagePlus"
+        app:layout_constraintTop_toTopOf="@+id/imageNav"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageBoard"
+        android:layout_width="685dp"
+        android:layout_height="422dp"
+        android:layout_marginBottom="56dp"
+        android:src="@drawable/board"
+        app:layout_constraintBottom_toTopOf="@+id/imageNav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageSetting"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="93dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="201dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="7dp"
+        android:src="@drawable/profile"
+        android:text="Log Out"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/imageBoard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageSetting"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
